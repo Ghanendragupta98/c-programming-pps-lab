@@ -10,7 +10,7 @@ int main()
     printf("Enter marks of PPS: ");
     scanf("%d",&marks2);
 
-    printf("Enter marks of maths: ");
+    printf("Enter marks of mathemathics: ");
     scanf("%d",&marks3);
 
     printf("Enter marks of EVS: ");

@@ -2,7 +2,8 @@
 
 int main()
 {
-    int marks1,marks2,marks3,marks4,marks5,sum,percent;
+    int marks1,marks2,marks3,marks4,marks5,sum;
+    float percent;
 
     printf("Enter marks of Physics: ");
     scanf("%d",&marks1);
@@ -22,7 +23,7 @@ int main()
     sum=marks1+marks2+marks3+marks4+marks5;
     percent=(sum/5);
 
-    printf("percentage: %d\n",percent);
+    printf("percentage: %f\n",percent);
     
     if(percent<100&&percent>=90)
     printf("Grade A");

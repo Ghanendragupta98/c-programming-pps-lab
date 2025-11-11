@@ -13,7 +13,7 @@ int main()
         else
         sumofodd=sumofodd+i;
     }
-    printf("sum of even numbers= %d",sumofeven);
+    printf("sum of even numbers= %d\n",sumofeven);
     printf("sum of odd numbers= %d",sumofodd);
     
     return 0;

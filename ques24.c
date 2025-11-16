@@ -9,7 +9,7 @@ int main()
 
     for(i=0;i<length;i++)
     {
-        printf("Enter element at index: %d  ",i);
+        printf("Enter element at index %d:  ",i);
       scanf("%d",&nums[i]);
     }
 

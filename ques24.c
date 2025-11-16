@@ -9,7 +9,7 @@ int main()
 
     for(i=0;i<length;i++)
     {
-        printf("Enter element at index %d  ",i);
+        printf("Enter element at index: %d  ",i);
       scanf("%d",&nums[i]);
     }
 
@@ -30,7 +30,7 @@ int main()
         }
     }
 
-    printf("Maximum = %d\n Minimum = %d",max,min);
+    printf("Maximum = %d\nMinimum = %d",max,min);
 
     return 0;
        

@@ -21,7 +21,7 @@ int main()
     scanf("%d",&marks5);
 
     sum=marks1+marks2+marks3+marks4+marks5;
-    percent=(sum/5);
+    percent=(sum/5.0);
 
     printf("percentage: %f\n",percent);
     
